@@ -69,7 +69,7 @@ def produce_zero_division_error():
 
 # OverflowError
 def produce_overflow_error():
-    pass
+    return 5 ** 1000000000044444000000000000000000000
 
 
 # FileNotFoundError
