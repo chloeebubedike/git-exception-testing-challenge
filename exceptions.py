@@ -59,7 +59,7 @@ def produce_type_error():
 
 # ValueError
 def produce_value_error():
-    return
+    return math.sqrt(-1)
 
 
 # ZeroDivisionError
