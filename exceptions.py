@@ -1,3 +1,4 @@
+import math
 # BROAD REASONS WHY YOU MIGHT GET AN EXCEPTION
 # (1) Trying to refer to something that doesn't exist
 # (2) Using a value that is inappropriate in some way
@@ -58,7 +59,7 @@ def produce_type_error():
 
 # ValueError
 def produce_value_error():
-    pass
+    return
 
 
 # ZeroDivisionError
