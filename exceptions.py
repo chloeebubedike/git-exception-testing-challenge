@@ -24,13 +24,13 @@
 
 # AttributeError - EXAMPLE
 def produce_attribute_error():
-    # print(1.234.upper())
-    pass
+    print(1.234.upper())
 
 
 # KeyError
 def produce_key_error():
-    pass
+    my_dictionary = {'name': 'Chloe', 'age': 23}
+    my_dictionary['address']
 
 
 # IndexError
