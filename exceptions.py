@@ -83,10 +83,10 @@ def produce_unicode_encode_error():
     return "ñ".encode('ascii')
 
 
-
 # ModuleNotFoundError
 def produce_module_not_found_error():
-    pass
+    import NumPy
+    arr = np.array([1, 2, 3])
 
 
 # ImportError
