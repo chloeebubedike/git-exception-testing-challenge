@@ -53,7 +53,7 @@ def produce_unbound_local_error():
 
 # TypeError
 def produce_type_error():
-    pass
+    return 4 / "2"
 
 
 # ValueError
