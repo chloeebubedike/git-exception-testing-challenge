@@ -35,7 +35,8 @@ def produce_key_error():
 
 # IndexError
 def produce_index_error():
-    pass
+    favourite_snacks = ['almond slices', 'nachos', 'croissant']
+    favourite_snacks[3]
 
 
 # NameError
