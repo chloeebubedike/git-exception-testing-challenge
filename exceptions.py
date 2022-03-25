@@ -41,7 +41,8 @@ def produce_index_error():
 
 # NameError
 def produce_name_error():
-    pass
+    my_variable = "This is my variable"
+    print(my_function)
 
 
 # UnboundLocalError
