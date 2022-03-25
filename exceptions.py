@@ -69,7 +69,7 @@ def produce_zero_division_error():
 
 # OverflowError
 def produce_overflow_error():
-    return 5 ** 1000000000044444000000000000000000000
+    return 5 ** 1000000000044444000000000000000000
 
 
 # FileNotFoundError
@@ -80,7 +80,8 @@ def produce_file_not_found_error():
 
 # UnicodeEncodeError
 def produce_unicode_encode_error():
-    pass
+    return "ñ".encode('ascii')
+
 
 
 # ModuleNotFoundError
