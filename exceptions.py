@@ -64,7 +64,7 @@ def produce_value_error():
 
 # ZeroDivisionError
 def produce_zero_division_error():
-    pass
+    return 2 / 0
 
 
 # OverflowError
