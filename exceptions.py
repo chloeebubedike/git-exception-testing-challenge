@@ -46,8 +46,9 @@ def produce_name_error():
 
 
 # UnboundLocalError
+counter = 0
 def produce_unbound_local_error():
-    pass
+    counter += 1
 
 
 # TypeError
