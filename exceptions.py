@@ -74,7 +74,8 @@ def produce_overflow_error():
 
 # FileNotFoundError
 def produce_file_not_found_error():
-    pass
+    with open('imaginary_file.txt', 'r') as imaginary_file:
+        imaginary_file.read()
 
 
 # UnicodeEncodeError
